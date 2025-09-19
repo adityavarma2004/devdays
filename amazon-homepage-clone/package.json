@@ -1,0 +1,9 @@
+{
+  "name": "amazon-homepage-clone",
+  "version": "1.0.0",
+  "description": "Amazon homepage clone for GitHub Pages",
+  "main": "index.html",
+  "scripts": {},
+  "author": "",
+  "license": "MIT"
+}
