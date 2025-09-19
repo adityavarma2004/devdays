@@ -10,10 +10,10 @@
     <header class="amazon-header">
         <div class="header-top">
             <div class="header-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" height="40">
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" height="38"></a>
             </div>
             <div class="header-location">
-                <span class="location-icon">📍</span>
+                <svg width="24" height="24" fill="#fff" style="vertical-align:middle;margin-right:2px;" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                 <div>
                     <span class="small-text">Deliver to</span><br>
                     <span class="bold-text">India</span>
@@ -21,35 +21,49 @@
             </div>
             <div class="header-search">
                 <select class="search-category">
-                    <option>All</option>
-                    <option>Electronics</option>
+                    <option selected>All</option>
+                    <option>Alexa Skills</option>
+                    <option>Amazon Devices</option>
                     <option>Books</option>
+                    <option>Electronics</option>
                     <option>Fashion</option>
+                    <option>Home & Kitchen</option>
                 </select>
                 <input type="text" id="search-input" placeholder="Search Amazon.in">
-                <button id="search-button">🔍</button>
+                <button id="search-button">
+                    <svg width="22" height="22" fill="#232f3e" viewBox="0 0 24 24"><path d="M21.71 20.29l-3.388-3.388A8.933 8.933 0 0 0 19 11a9 9 0 1 0-9 9 8.933 8.933 0 0 0 5.902-1.678l3.388 3.388a1 1 0 0 0 1.414-1.414zM4 11a7 7 0 1 1 7 7 7.008 7.008 0 0 1-7-7z"/></svg>
+                </button>
             </div>
-            <div class="header-account">
+            <div class="header-account dropdown">
                 <span class="small-text">Hello, Sign in</span><br>
-                <span class="bold-text">Account & Lists</span>
+                <span class="bold-text">Account & Lists <svg width="10" height="10" fill="#fff" style="vertical-align:middle;" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 0 1 1.414 0L10 10.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414z"/></svg></span>
+                <div class="dropdown-content">
+                    <a href="#">Sign In</a>
+                    <a href="#">New customer? Start here.</a>
+                </div>
             </div>
             <div class="header-returns">
                 <span class="small-text">Returns</span><br>
                 <span class="bold-text">& Orders</span>
             </div>
             <div class="header-cart">
-                <span class="cart-icon">🛒</span>
+                <svg width="28" height="28" fill="#fff" viewBox="0 0 24 24"><path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zM7.334 16h9.332c.828 0 1.54-.672 1.658-1.488l1.334-10A1.5 1.5 0 0 0 18.167 3H5.833a1.5 1.5 0 0 0-1.491 1.512l1.334 10A1.667 1.667 0 0 0 7.334 16zm9.332-2H7.334l-1.334-10h12.668l-1.334 10z"/></svg>
                 <span class="bold-text">Cart</span>
             </div>
         </div>
         <nav class="header-nav">
             <ul>
-                <li><a href="#" class="nav-link">All</a></li>
+                <li><a href="#" class="nav-link"><svg width="22" height="22" fill="#fff" style="vertical-align:middle;margin-right:4px;" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>All</a></li>
+                <li><a href="#" class="nav-link">Amazon miniTV</a></li>
+                <li><a href="#" class="nav-link">Sell</a></li>
+                <li><a href="#" class="nav-link">Best Sellers</a></li>
+                <li><a href="#" class="nav-link">Mobiles</a></li>
                 <li><a href="#" class="nav-link">Today's Deals</a></li>
                 <li><a href="#" class="nav-link">Customer Service</a></li>
-                <li><a href="#" class="nav-link">Gift Cards</a></li>
-                <li><a href="#" class="nav-link">Registry</a></li>
-                <li><a href="#" class="nav-link">Sell</a></li>
+                <li><a href="#" class="nav-link">Electronics</a></li>
+                <li><a href="#" class="nav-link">Prime <svg width="16" height="16" fill="#00a8e1" style="vertical-align:middle;" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 0 1 1.414 0L10 10.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414z"/></svg></a></li>
+                <li><a href="#" class="nav-link">New Releases</a></li>
+                <li><a href="#" class="nav-link">Home & Kitchen</a></li>
             </ul>
         </nav>
     </header>
@@ -118,7 +132,7 @@
             </div>
         </section>
         <section class="products">
-            <h2>Electronics</h2>
+            <h2>Electronics & More</h2>
             <div class="product-list">
                 <div class="product-item">
                     <img src="https://m.media-amazon.com/images/I/71k3gOik46L._AC_UL320_.jpg" alt="Smartphone">
@@ -137,6 +151,27 @@
                     <h3>Tablet</h3>
                     <p>₹8,499</p>
                     <button>Add to Cart</button>
+                </div>
+                <!-- Prime Day Promo Card -->
+                <div class="product-item promo-card">
+                    <img src="https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg" alt="Prime Day">
+                    <h3>Prime Day is Coming</h3>
+                    <p>Exclusive deals for Prime members</p>
+                    <button style="background:#00a8e1;color:#fff;">Learn More</button>
+                </div>
+                <!-- Amazon Pay Card -->
+                <div class="product-item promo-card">
+                    <img src="https://m.media-amazon.com/images/I/51QxA-98QzL._AC_UL320_.jpg" alt="Amazon Pay">
+                    <h3>Amazon Pay</h3>
+                    <p>Pay bills, recharge, and more</p>
+                    <button style="background:#febd69;">Try Now</button>
+                </div>
+                <!-- Gift Ideas Card -->
+                <div class="product-item promo-card">
+                    <img src="https://m.media-amazon.com/images/I/71Q9d6N7xkL._AC_UL320_.jpg" alt="Gift Ideas">
+                    <h3>Gift Ideas</h3>
+                    <p>Find the perfect gift for everyone</p>
+                    <button style="background:#f08804;">Shop Gifts</button>
                 </div>
             </div>
         </section>
